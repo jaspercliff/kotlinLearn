@@ -6,7 +6,7 @@ class Person(val name: String, var age: Int){
     }
 }
 
-//kotlin 中所有类默认集成Any 类
+//kotlin 中所有类默认继承Any 类
 val person = Person("Dmitry", 30)
 
 fun main(){
