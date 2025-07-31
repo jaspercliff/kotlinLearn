@@ -1,4 +1,4 @@
-package com.jasper
+package com.jasper.foundation
 
 class DataType {
 
