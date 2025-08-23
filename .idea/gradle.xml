@@ -5,7 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="/opt/homebrew/Cellar/gradle/8.14.2/libexec" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -13,8 +12,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/foundation" />
-        <option name="gradleHome" value="/opt/homebrew/Cellar/gradle/8.14.2/libexec" />
+        <option name="gradleJvm" value="21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/foundation" />
@@ -23,7 +24,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/utils" />
-        <option name="gradleHome" value="/opt/homebrew/Cellar/gradle/8.14.2/libexec" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/utils" />
