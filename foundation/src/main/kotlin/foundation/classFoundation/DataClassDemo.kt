@@ -1,4 +1,4 @@
-package com.jasper.foundation
+package com.jasper.foundation.classFoundation
 
 // data class 用于简洁定义模型的类  替代java中的pojo
 data class Human(val age: Int, val name: String)
