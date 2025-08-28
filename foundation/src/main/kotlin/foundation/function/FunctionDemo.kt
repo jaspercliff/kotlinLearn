@@ -4,13 +4,14 @@ fun sum(x:Int,y: Int):Int {
     return x+y
 }
 
-//默认参数
-fun printHello(first: String,last:String = "world") {
+//默认参数  Unit 代表函数没有返回值 类似java中的void 没有必要写
+fun printHello(first: String,last:String = "world"): Unit {
     println("$first,$last")
 }
 
 // single-expression function 单表达式函数  可以使用=声明函数体  自动推断
 fun sum1(x:Int,y:Int):Int = x+y
+
 
 var names = mutableListOf<String>("jasper", "cliff")
 var fruits = mutableListOf<String>("apple", "pine")

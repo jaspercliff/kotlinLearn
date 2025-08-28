@@ -1,5 +1,10 @@
 package foundation.dateTyoe;
 
+// 顶层变量 public
+val list = mutableListOf(1, 2, 3)
+// 顶层常量  const和val的区别是const是可以在编译时就确定的
+const val h = "hello"
+
 class DataType {
 // type inference 类型推断
     val name = "jasper"  //不可变变量
